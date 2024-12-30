@@ -6,8 +6,8 @@ A mobile authentication application built with React Native and TypeScript, feat
 
 ### Login Screen
 
-![Login Screen](assets/screenshots/login-screen.jpg =100x20)
-![Login Success](assets/screenshots/login-success.jpg =100x20)
+<img src="assets/screenshots/login-screen.jpg" alt="drawing" width="200"/>
+<img src="assets/screenshots/login-success.jpg" alt="drawing" width="200"/>
 
 - Clean login interface
 - Email and password validation
@@ -16,7 +16,7 @@ A mobile authentication application built with React Native and TypeScript, feat
 
 ### Sign Up Screen
 
-![Sign Up Screen](assets/screenshots/signup-screen.jpg =100x20)
+<img src="assets/screenshots/signup-screen.jpg" alt="drawing" width="200"/>
 
 - Password strength indicator
 - Real-time validation
