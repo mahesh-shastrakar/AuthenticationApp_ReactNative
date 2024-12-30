@@ -12,8 +12,8 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to the App</Text>
-      <Text style={styles.subtitle}>This is the home page</Text>
+      <Text style={styles.title}>Authentication App</Text>
+      <Text style={styles.subtitle}>Welcome</Text>
       <CustomButton
         title="Go to Login"
         onPress={() => navigation.navigate('Login')}

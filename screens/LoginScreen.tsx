@@ -34,7 +34,7 @@ const LoginScreen = () => {
     }
     Alert.alert('Success', 'Login Successful');
     resetForm();
-    navigation.navigate('Home');
+    navigation.goBack();
   };
 
   useEffect(() => {
