@@ -1,18 +1,19 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
+// This file contains functions to save and retrieve data from the device's storage.
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const saveEmail = async (email: string): Promise<void> => {
   try {
-    await AsyncStorage.setItem('rememberedEmail', email);
+    await AsyncStorage.setItem("rememberedEmail", email);
   } catch (error) {
-    console.error('Error saving email:', error);
+    console.error("Error saving email:", error);
   }
 };
 
 export const getRememberedEmail = async (): Promise<string | null> => {
   try {
-    return await AsyncStorage.getItem('rememberedEmail');
+    return await AsyncStorage.getItem("rememberedEmail");
   } catch (error) {
-    console.error('Error getting remembered email:', error);
+    console.error("Error getting remembered email:", error);
     return null;
   }
 };

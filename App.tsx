@@ -3,11 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import RootNavigator from './navigators/RootNavigator';
 
-// Make sure to define the type for the navigation stack
-
-
-
-function App() {
+const App = () => {
   return (
     <SafeAreaProvider>
       <NavigationContainer>
