@@ -6,8 +6,10 @@ A mobile authentication application built with React Native and TypeScript, feat
 
 ### Login Screen
 
-<img src="assets/screenshots/login-screen.jpg" alt="drawing" width="200"/>
-<img src="assets/screenshots/login-success.jpg" alt="drawing" width="200"/>
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src="assets/screenshots/login-screen.jpg" alt="Login Screen" style="width: 200px; height: auto;">
+  <img src="assets/screenshots/login-success.jpg" alt="Login Success" style="width: 200px; height: auto;">
+</div>
 
 - Clean login interface
 - Email and password validation
@@ -16,7 +18,10 @@ A mobile authentication application built with React Native and TypeScript, feat
 
 ### Sign Up Screen
 
-<img src="assets/screenshots/signup-screen.jpg" alt="drawing" width="200"/>
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src="assets/screenshots/signup-screen.jpg" alt="Login Screen" style="width: 200px; height: auto;">
+  <img src="assets/screenshots/signup-success.jpg" alt="Login Success" style="width: 200px; height: auto;">
+</div>
 
 - Password strength indicator
 - Real-time validation
@@ -24,7 +29,9 @@ A mobile authentication application built with React Native and TypeScript, feat
 
 ### App Flow Demo
 
-![App Demo](assets/screenshots/app-flow.gif =100x20)
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src="assets/screenshots/app-flow.gif" alt="Login Success" style="width: 200px; height: auto;">
+</div>
 
 - Complete authentication flow
 - Form validation in action
